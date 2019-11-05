@@ -24,11 +24,23 @@
                         akad.
                     </a>
                 </h1>
-                <button class="ba-menu-btn" aria-label="open menu">
+                <label for="menuOpen" class="ba-menu-btn" aria-label="open menu">
                     <span class="ba-menu-btn__line"></span>
                     <span class="ba-menu-btn__line"></span>
                     <span class="ba-menu-btn__line"></span>
-                </button>
+                </label>
+                <input type="checkbox" id="menuOpen" class="visually-hidden">
+                <div class="ba-menu-block">
+                    <nav>
+                        <ul class="ba-menu">
+                            <li class="ba-menu__item"><a href="" class="ba-menu__link">menu 01</a></li>
+                            <li class="ba-menu__item"><a href="" class="ba-menu__link">menu 02</a></li>
+                            <li class="ba-menu__item"><a href="" class="ba-menu__link">menu 03</a></li>
+                            <li class="ba-menu__item"><a href="" class="ba-menu__link">menu 04</a></li>
+                            <li class="ba-menu__item"><a href="" class="ba-menu__link">menu 05</a></li>
+                        </ul>
+                    </nav>
+                </div>
             </div>
         </div>
     </header>
@@ -221,7 +233,7 @@
             <div class="container">
                 <div class="ba-section__header">
                     <h2 class="ba-info__title">
-                        <span>Some benefits</span>
+                        <span>THE DREAMTEAM</span>
                     </h2>
                     <div class="ba-info__text">
                         <p>
@@ -232,7 +244,7 @@
                 </div>
                 <div class="ba-team-list ba-row">
                     <div class="ba-col-3">
-                        <div class="ba-team-member">
+                        <div class="ba-team-member"> 
                             <img src="img/1.png" alt="Enriko" class="ba-team-member__img">
                             <div class="ba-team-member__info">
                                 <div>
@@ -247,7 +259,7 @@
                     </div>
                     <div class="ba-col-3">
                             <div class="ba-team-member">
-                                <img src="img/1.png" alt="Enriko" class="ba-team-member__img">
+                                <img src="img/Gred.jpg" alt="Enriko" class="ba-team-member__img">
                                 <div class="ba-team-member__info">
                                     <div>
                                         <i class="icon ion-logo-wordpress"></i>
@@ -261,7 +273,7 @@
                     </div>
                     <div class="ba-col-3">
                             <div class="ba-team-member">
-                                <img src="img/1.png" alt="Enriko" class="ba-team-member__img">
+                                <img src="img/Jastin.jpg" alt="Enriko" class="ba-team-member__img">
                                 <div class="ba-team-member__info">
                                     <div>
                                         <i class="icon ion-logo-wordpress"></i>
@@ -275,7 +287,7 @@
                     </div>
                     <div class="ba-col-3">
                             <div class="ba-team-member">
-                                <img src="img/1.png" alt="Enriko" class="ba-team-member__img">
+                                <img src="img/Kelvin.jpg" alt="Enriko" class="ba-team-member__img">
                                 <div class="ba-team-member__info">
                                     <div>
                                         <i class="icon ion-logo-wordpress"></i>
@@ -289,7 +301,7 @@
                     </div>
                     <div class="ba-col-3">
                             <div class="ba-team-member">
-                                <img src="img/1.png" alt="Enriko" class="ba-team-member__img">
+                                <img src="img/Mark.jpg" alt="Enriko" class="ba-team-member__img">
                                 <div class="ba-team-member__info">
                                     <div>
                                         <i class="icon ion-logo-wordpress"></i>
@@ -303,7 +315,7 @@
                     </div>
                     <div class="ba-col-3">
                             <div class="ba-team-member">
-                                <img src="img/1.png" alt="Enriko" class="ba-team-member__img">
+                                <img src="img/Marta.jpg" alt="Enriko" class="ba-team-member__img">
                                 <div class="ba-team-member__info">
                                     <div>
                                         <i class="icon ion-logo-wordpress"></i>
@@ -317,7 +329,7 @@
                     </div>
                     <div class="ba-col-3">
                             <div class="ba-team-member">
-                                <img src="img/1.png" alt="Enriko" class="ba-team-member__img">
+                                <img src="img/Piter.jpg" alt="Enriko" class="ba-team-member__img">
                                 <div class="ba-team-member__info">
                                     <div>
                                         <i class="icon ion-logo-wordpress"></i>
@@ -331,7 +343,7 @@
                     </div>
                     <div class="ba-col-3">
                             <div class="ba-team-member">
-                                <img src="img/1.png" alt="Enriko" class="ba-team-member__img">
+                                <img src="img/Ramona.jpg" alt="Enriko" class="ba-team-member__img">
                                 <div class="ba-team-member__info">
                                     <div>
                                         <i class="icon ion-logo-wordpress"></i>
@@ -342,20 +354,38 @@
                                     <p class="ba-team-member__position">PodaiPrinesi</p>
                                 </div>
                             </div>
-                    </div>
-                    
+                    </div>                   
                 </div>
-
             </div>
         </section>
         <!-- ba-team end -->
-
-
     </main>
     ​
     <footer class="ba-footer">
         <div class="container">
-            <div class="row"></div>
+            <div class="ba-row">
+                <div class="ba-col-6">
+                    <div class="ba-footer-contact">
+                        <h2 class="ba-footer__title">
+                            YOU THINK WE'RE COOL? LET'S WORK TOGETHER
+                        </h2>
+                        <button id="modalGetInTouch" class="ba-button">get in touch</button>
+                    </div>
+                </div>
+                <div class="ba-col-6">
+                    <div class="ba-subscribe">
+                        <h2 class="ba-subscribe__title">STAY INFORMED WITH OUR NEWSLETTER</h2>
+                        <p class="ba-subscribe__desc ba-info__text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, porro!
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, porro!
+                        </p>
+                        <form class="ba-subscribe-form">
+                            <input type="email" required placeholder="your email" class="ba-input" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+                            <button class="ba-button ba-button_green">send</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
         </div>
     </footer>
 
